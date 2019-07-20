@@ -1,0 +1,53 @@
+<div >
+                <div class="col-sm-4" id="">
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a data-toggle="tab" href="#home">{{user.0}}</a></li>                      
+                    </ul>
+                    <div class="tab-content Content">
+                      <div id="home" class="tab-pane fade in active" id="parentDiv">
+                        <div class="balloon-set-box left">{% for message in onlyChatUser[0] %}
+                        <div class="balloon"><p>{{message}}</p></div>
+                        <!-- <div class="balloon"><p>{{message}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="balloon"><p>{{message}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="balloon"><p>{{message}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                        <div class="balloon"><p>{{message}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div> -->
+                        {%endfor%}
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4" id="">
+                      <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home">{{user.1}}</a></li>                      
+                      </ul>
+                      <div class="tab-content Content">
+                        <div id="home" class="tab-pane fade in active" id="parentDiv">
+                          <div class="balloon-set-box left">{% for message in onlyChatUser[1] %}
+                            <div class="balloon"><p>{{message}}</p></div>
+                            <!-- <div class="balloon"><p>{{message}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                            <div class="balloon"><p>{{message}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                            <div class="balloon"><p>{{message}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                            <div class="balloon"><p>{{message}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div> -->
+                        {%endfor%}
+                        </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-4" id="">
+                      <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home">{{user.2}}</a></li>                      
+                      </ul>
+                      <div class="tab-content Content" style="margin-bottom: 5%">
+                        <div id="home" class="tab-pane fade in active" id="parentDiv">
+                          <div class="balloon-set-box left">{% for message in onlyChatUser[2] %}
+                            <div class="balloon"><p>{{message}}</p></div>
+                            <!-- <div class="balloon"><p>{{message}}Lorem ipsum dolor sit aet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                            <div class="balloon"><p>{{message}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                            <div class="balloon"><p>{{message}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                            <div class="balloon"><p>{{message}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div> -->
+                        {%endfor%}
+                        </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
